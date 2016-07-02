@@ -13,5 +13,7 @@ object Main {
     else {
       MemoryWriter.write("hello")
     }
+
+    ddd
   }
 }
