@@ -7,9 +7,11 @@ object Main {
   }
 
   def writeTo(toFile: Boolean): Unit = {
-    if(toFile)
+    if(toFile) {
       FileWriter.write("hello")
-    else
+    }
+    else {
       MemoryWriter.write("hello")
+    }
   }
 }
