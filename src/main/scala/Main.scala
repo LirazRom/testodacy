@@ -14,6 +14,6 @@ object Main {
       MemoryWriter.write("hello")
     }
 
-    ddd
+
   }
 }

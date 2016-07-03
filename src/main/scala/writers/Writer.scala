@@ -8,5 +8,6 @@ case object FileWriter extends Writer {
   override def write(msg: String): Unit = println(msg)
 }
 case object MemoryWriter extends Writer {
-  override def write(msg: String): Unit = ???
+  var buffer: String = ""
+  override def write(msg: String): Unit  = buffer += msg
 }
